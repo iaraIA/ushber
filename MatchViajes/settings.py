@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-_lv+u&uq356c8f0zko)cst^-qrd1zfp_c#186-hr#ved*m7gql
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['goush.shop' , 'www.goush.shop']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
