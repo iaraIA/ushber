@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn ushber.wsgi
+web: python manage.py migrate && gunicorn MatchViajes.wsgi
