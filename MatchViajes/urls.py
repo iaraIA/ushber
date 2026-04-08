@@ -18,16 +18,9 @@ from django.contrib import admin
 from django.urls import path, include
 
 urlpatterns = [
-    from .views import home
-from django.contrib import admin
-from django.urls import path, include
-
-urlpatterns = [
-    path('', home, name='home'),  # 👈 TU HOME
+    path('', home, name='home'),
     path('admin/', admin.site.urls),
 
-    # Apps
     path('viajes/', include('GestionViajes.urls')),
     path('auth/', include('Authentication.urls')),
 ]
-
